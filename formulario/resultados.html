@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado</title>
+</head>
+<body>
+    <h1>Resultado</h1>
+    <p><strong>Nombre:</strong> <span id="nombre"></span></p>
+    <p><strong>Apellido Paterno:</strong> <span id="apellido_paterno"></span></p>
+    <p><strong>Apellido Materno:</strong> <span id="apellido_materno"></span></p>
+    <p><strong>Edad:</strong> <span id="edad"></span></p>
+    <p><strong>Fecha de Nacimiento:</strong> <span id="fecha_nacimiento"></span></p>
+    <p><strong>Correo Electrónico:</strong> <span id="correo_electronico"></span></p>
+    <p><strong>Comentarios:</strong> <span id="comentarios"></span></p>
+<a href="formulario.html">volver al formulario </a>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const params = Object.fromEntries(urlParams.entries());
+
+        document.getElementById("nombre").textContent = params.nombre;
+        document.getElementById("apellido_paterno").textContent = params.apellido_paterno;
+        document.getElementById("apellido_materno").textContent = params.apellido_materno;
+        document.getElementById("edad").textContent = params.edad
