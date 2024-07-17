@@ -1,0 +1,17 @@
+h1{
+    color: red;
+}
+.c{
+    padding: 7px;
+
+    margin: 120px;
+    border: 100px;
+background-color: lightseagreen;
+align-items: center;
+text-align: center;
+}
+p{
+    padding: 12px;
+    font-size: 23px;
+
+}
