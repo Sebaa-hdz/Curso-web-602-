@@ -1,0 +1,38 @@
+/* Agregar la etiqueta sobrea la que voy a trabajar 
+y sus modificaciones van dentro de {}*/
+body{
+    background-color: aliceblue;
+}
+h1{
+    /* Primero la propiedad a cambiar y posteriormente el valor finalizo en ; */
+    color: rgb(0, 136, 255); 
+
+}
+p{
+    color: green;
+    font-size: 20pt;
+}
+/* Selectores*/
+
+/* Selectores ID*/
+#t1{
+ color: goldenrod;
+}
+/* Selectores clase */
+.euro{
+    color: blueviolet;
+    font-size: 20pt;
+}
+.italia{
+    color: aquamarine;
+    font-size: 30pt;
+}
+.mexico{
+    color: violet;
+    font-size: 40pt;
+}
+/* Selectores Universal*/
+*#warning{
+
+}
+/* quedan por encima de los selectores anteriores*/
